@@ -7,3 +7,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # GnuPG
 export GPG_TTY=$(tty)
+
+# Clang include path
+export C_INCLUDE_PATH=$HOME/.local/include:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=$HOME/.local/include:$CPLUS_INCLUDE_PATH
