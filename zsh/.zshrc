@@ -4,3 +4,4 @@ compinit
 
 # Zsh aliases
 alias cat=bat
+alias vim=nvim

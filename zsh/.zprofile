@@ -2,6 +2,9 @@
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:zh:en_US:en
 
+# Editor
+export EDITOR=nvim
+
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
