@@ -1,0 +1,7 @@
+[user]
+    name = Zeeman Zhang
+    email = 57309261+zeemanz@users.noreply.github.com
+[commit]
+    gpgSign = true
+[tag]
+    gpgSign = true
