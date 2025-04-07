@@ -1,17 +1,18 @@
 -- vim settings
-vim.o.number = true
-vim.o.relativenumber = true
-vim.o.cursorline = true
-vim.o.expandtab = true
-vim.o.tabstop = 4
-vim.o.softtabstop = 4
-vim.o.shiftwidth = 4
-vim.o.autoindent = true
-vim.o.list = true
-vim.o.scrolloff = 4
-vim.o.ignorecase = true
-vim.o.smartcase = true
-vim.o.lazyredraw = true
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.cursorline = true
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.autoindent = true
+vim.opt.list = true
+vim.opt.scrolloff = 4
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.lazyredraw = true
+vim.opt.clipboard = vim.opt.clipboard + 'unnamedplus'
 
 -- lazy.nvim
 require("config.lazy")
